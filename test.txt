@@ -1,1 +1,30 @@
-constance
+Resume du cours de GitHub
+
+GitHub est un service basé sur le cloud qui héberge un système de contrôle de version (VCS) appelé Git. 
+Il permet aux développeurs de collaborer et d’apporter des modifications aux projets partagés tout en gardant un suivi détaillé de leur progression.
+
+Git est un système de contrôle de version distribué permettant de gérer le code source et l’historique des modifications à l’aide des outils de ligne de commande Git.
+
+Les commandes utilisé sont:
+
+Pour configurer votre username et l’adresse email à utiliser pour vos commits.
+git config –global user.name <votre_nom_d'utilisateur>
+git config –global user.email <votre_adresse_email>
+
+Pour initialiser u nouveau repos
+git init <le_nom_de_votre_repo_git>
+
+Pour cloner un dépôt à partir d’une URL existante
+git clone <url_du_depot_git>
+
+Pour ajouter un fichier en staging
+git add <nom_du_ou_des_fichier(s)>
+
+La commande git commit permet d’enregistrer les changements effectués sur votre code dans l’historique git.
+git commit -m <votre_message_de_commit>
+
+Pour la Création du compte GitHub il faut
+
+1.Créer un dossier de code.
+2.Ajouter les fichiers du site dans le dossier de code.
+3.Consulter votre site en ligne sur GitHub.
